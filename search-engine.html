@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Custom search engine</title>
+<style>
+.searchbar {
+position: fixed;
+top: 150px;
+float: center;
+#margin-left: 150px;
+width: 100%;
+height: 30%;
+}
+
+.searchbar input {
+margin-left: 25%;
+width: 50%;
+height: 20%;
+border-radius:10px;
+border-width: thin;
+}
+
+.searchbar button {
+position: absolute;
+top:60px;
+left:45%;
+border-radius:5px;
+border-width: thin;
+}
+</style>
+</head>
+<body style="background-color:#ffffff;">
+<div class="searchbar">
+<form action="/result" method="get">
+<input type="text" name="search" placeholder="Search..">
+<button type="submit">Submit</button>
+</form>
+</div>
+</div>
+</body>
+</html>
