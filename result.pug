@@ -13,4 +13,7 @@ head
 .results
   | Here&apos;s what you asked for...
   p 
-  a(href=message) !{message}
+  
+  each entry in message 
+     a(href=entry.url) !{entry.url}
+     br
